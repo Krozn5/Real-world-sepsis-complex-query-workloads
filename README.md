@@ -31,7 +31,7 @@ The "workload" folder includes the view creation statements and query execution 
 1.Create a folder locally containing Dockerfile, init_pgsql.sh and postgresql-13.1.tar.gz.
 
 ```makefile
-C:\docker-project
+/usr/docker-project
 ├── Dockerfile
 ├── postgresql-13.1.tar.gz
 └── init_pgsql.sh
@@ -73,7 +73,7 @@ psql -U pg pg
 3.Use the docker cp command to copy the files to the container:
 
 ```bash
-docker cp C:\docker-project\respiratorycharting.csv <container_id>:/tmp/respiratorycharting.csv
+docker cp /usr/respiratorycharting.csv <container_id>:/tmp/respiratorycharting.csv
 ```
 
 4.Once connected to the PostgreSQL database, you can execute the following SQL statement to create the target table:
@@ -87,7 +87,7 @@ CREATE TABLE "eicu_core"."respiratorycharting" (
 );
 ```
 
-5.Copy the file to /tmp/respiratorycharting.csvhou in the container and run the following SQL statement to import the CSV file into the respiratorycharting table:
+5.Copy the file to /tmp/respiratorycharting.csv in the container and run the following SQL statement to import the CSV file into the respiratorycharting table:
 
 ```sql
 COPY "eicu_core"."respiratorycharting" (
