@@ -70,10 +70,10 @@ CREATE DATABASE pg;
 psql -U pg pg
 ```
 
-3.Use the docker cp command to copy the files to the container:
+3.Upload all the files in the dataset folder to the tmp directory in the docker named pg1:
 
 ```bash
-docker cp /usr/respiratorycharting.csv <container_id>:/tmp/respiratorycharting.csv
+docker cp /usr/dataset/eicu_simplified <pg1>:/tmp/
 ```
 
 4.Once connected to the PostgreSQL database, you can execute the following SQL statement to create the target table:
