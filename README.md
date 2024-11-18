@@ -1,6 +1,6 @@
 # Real-world Sepsis Complex Query Workloads
 
-Real sepsis query workloads are crucial for query optimization tasks. To achieve efficient query performance in real sepsis complex query scenarios, we collaborated with medical professionals from Peking University People's Hospital and Tsinghua Changgeng Hospital to obtain multiple sets of real sepsis complex query workloads. These workloads reflect the actual needs of clinicians for sepsis data. The project extracted five query examples from these workloads, each focusing on querying indicators such as norepinephrine levels, blood pH, body temperature, fluid intake, and respiratory rate. The datasets used for these queries are from the MIMIC-IV (https://physionet.org/content/mimic-iv/) and eICU (https://physionet.org/content/eicu-crd/) databases.
+Real-world sepsis query workloads are crucial for query optimization tasks. To achieve efficient query performance in real sepsis complex query scenarios, we collaborated with medical professionals from Peking University People's Hospital obtain multiple sets of real sepsis complex query workloads. These workloads reflect the actual needs of clinicians for sepsis data. The project extracted five query examples from these workloads, each focusing on querying indicators such as norepinephrine levels, blood pH, body temperature, fluid intake, and respiratory rate. The datasets used for these queries are from the MIMIC-IV (https://physionet.org/content/mimic-iv/) and eICU (https://physionet.org/content/eicu-crd/) databases.
 
 
 
