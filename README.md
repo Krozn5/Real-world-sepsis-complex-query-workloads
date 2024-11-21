@@ -135,6 +135,7 @@ If you find the code useful, please cite our paper:
 
 If you have \*ANY\* trouble to build this benchmark, please feel free to contact us. :)
 
+- Kaige Wang:**wkg@henu.edu.cn**
 - Kaijun Wen: **wenkaijun@henu.edu.cn**
 - Kun Chao: **chaokun@henu.edu.cn**
 
